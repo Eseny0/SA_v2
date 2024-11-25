@@ -342,5 +342,5 @@ class Solve(Options):
         a = a.T  # Перетворили а у матрицю розмірністю (n, k).
         b = np.matmul(a.T, b)  # Перетворили b у матрицю розмірністю (k,1).
         a = np.matmul(a.T, a)  # Перетворили а у матрицю розмірністю (k, k).
-        x = cg(a, b, tol=self.Eps)[0]
+        x = cg(a, b, atol=self.Eps)[0]
         return x

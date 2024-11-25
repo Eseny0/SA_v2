@@ -89,4 +89,4 @@ if __name__ == '__main__':
 
     MainWindow.show()  # Показуємо головне вікно
 
-    sys.exit(app.exec_())  # Запускаємо додаток
+    sys.exit(app.exec())  # Запускаємо додаток
