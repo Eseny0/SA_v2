@@ -1,0 +1,1 @@
+net_sqm	center_distance	metro_distance	age	price
